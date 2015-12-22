@@ -1,0 +1,62 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" 
+    android:background="@drawable/bumi"
+    >
+
+    <Button
+        android:id="@+id/buttonaustralia"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/buttoneropa"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="14dp"
+        android:text="Australia"
+        android:background="@drawable/putih"
+         />
+
+    <Button
+        android:id="@+id/buttonamerika"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/buttonaustralia"
+        android:layout_alignRight="@+id/buttonaustralia"
+        android:layout_marginBottom="14dp"
+        android:text="Amerika" 
+        android:background="@drawable/putih"
+        />
+
+    <Button
+        android:id="@+id/buttonafrika"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/buttonamerika"
+        android:layout_alignLeft="@+id/buttoneropa"
+        android:layout_marginBottom="17dp"
+        android:text="Afrika"
+        android:background="@drawable/putih"
+         />
+
+    <Button
+        android:id="@+id/buttonasia"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/buttonafrika"
+        android:layout_alignLeft="@+id/buttonafrika"
+        android:layout_marginBottom="14dp"
+        android:text="Asia" 
+        android:background="@drawable/putih"
+        />
+
+    <Button
+        android:id="@+id/buttoneropa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="77dp"
+        android:text="Eropa"
+        android:background="@drawable/putih"
+         />
+
+</RelativeLayout>

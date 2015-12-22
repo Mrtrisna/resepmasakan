@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.resepmakanan"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="17" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/makan"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.resepmakanan.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="com.example.resepmakanan.Benua" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN2" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name="com.example.resepmakanan.Help" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN3" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name="com.example.resepmakanan.MakananAfrika"> 
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN4" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name="com.example.resepmakanan.Pilihan">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN5" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.resepmakanan.Detail">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN6" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.resepmakanan.MakananAsia">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN6" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.resepmakanan.MakananAmerika">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN6" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.resepmakanan.MakananEropa">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN6" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.resepmakanan.MakananAustralia">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN6" />
+            </intent-filter>
+        </activity>
+        </application>
+
+</manifest>
